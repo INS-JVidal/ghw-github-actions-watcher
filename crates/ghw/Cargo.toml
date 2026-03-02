@@ -6,7 +6,7 @@ description = "GitHub Actions Watcher TUI"
 license = "MIT"
 
 [dependencies]
-ciw-core = { path = "../ciw-core" }
+ciw-core = { path = "../ciw-core", version = "0.8.0" }
 clap = { version = "4", features = ["derive"] }
 color-eyre = "0.6"
 tokio = { version = "1", features = ["rt", "rt-multi-thread", "macros", "sync", "time", "process", "io-util"] }
